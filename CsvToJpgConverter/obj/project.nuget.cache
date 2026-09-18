@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "6TiI41U8FMY=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\dydwn\\source\\repos\\CsvToJpgConverter\\CsvToJpgConverter\\CsvToJpgConverter.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\dydwn\\.nuget\\packages\\csvhelper\\33.1.0\\csvhelper.33.1.0.nupkg.sha512",
+    "C:\\Users\\dydwn\\.nuget\\packages\\sixlabors.imagesharp\\4.1.2\\sixlabors.imagesharp.4.1.2.nupkg.sha512",
+    "C:\\Users\\dydwn\\.nuget\\packages\\system.io.hashing\\8.0.0\\system.io.hashing.8.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}
