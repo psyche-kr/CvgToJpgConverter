@@ -19,7 +19,7 @@ namespace CsvToJpgConverter
         {
             InitializeComponent();
 
-            Text = "CSV → JPG 변환기";
+            Text = "CSV to PNG";
 
             // 폼 크기 고정
             ClientSize = new Size(600, 430);
@@ -87,7 +87,7 @@ namespace CsvToJpgConverter
             // 변환 시작 버튼
             convertButton = new Button
             {
-                Text = "변환 시작",
+                Text = "변환",
                 Location = new Point(32, 340),
                 Size = new Size(180, 42)
             };
@@ -126,7 +126,7 @@ namespace CsvToJpgConverter
         {
             using var dialog = new FolderBrowserDialog
             {
-                Description = "JPG를 저장할 폴더를 선택하세요."
+                Description = "PNG를 저장할 폴더를 선택하세요."
             };
 
             if (dialog.ShowDialog() == DialogResult.OK)
@@ -161,7 +161,7 @@ namespace CsvToJpgConverter
                     outputFolder);
 
                 MessageBox.Show(
-                    $"{count}개의 JPG 이미지가 생성되었습니다.",
+                    $"{count}개의 PNG 이미지가 생성되었습니다.",
                     "변환 완료",
                     MessageBoxButtons.OK,
                     MessageBoxIcon.Information);

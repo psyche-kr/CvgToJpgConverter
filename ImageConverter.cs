@@ -139,9 +139,9 @@ namespace CsvToJpgConverter
             string outputFile =
                 Path.Combine(
                     outputFolder,
-                    $"{fileName}.jpg");
+                    $"{fileName}.png");
 
-            image.SaveAsJpeg(outputFile);
+            image.SaveAsPng(outputFile);
         }
 
         private static void DrawCircle(
@@ -185,7 +185,6 @@ namespace CsvToJpgConverter
 
             number = Math.Clamp(number, 0, 255);
 
-            // .5일 때 무조건 올림하는 일반적인 반올림
             return (byte)Math.Round(
                 number,
                 MidpointRounding.AwayFromZero);
